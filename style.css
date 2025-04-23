@@ -718,7 +718,7 @@ url("img/employee-la.webp") 2x);
 url("img/cow-img.webp") 2x);background-image: image-set(url("img/cow-img.png") 1x,
 url("img/cow-img.png") 2x,url("img/cow-img.webp") 1x,
 url("img/cow-img.webp") 2x);
-	background-size:length;
+	background-size:cover;
 	height:455px;
 	align-content:space-around;
 }
@@ -900,6 +900,17 @@ url("img/cow-img.webp") 2x);
 	width:16px!important;
 	height:16px!important;
 	fill:var(--swatch-var-7343)!important;
+}
+.nav-cta-btn:hover{
+	background-color:var(--swatch-var-4292);
+}
+.ref-wall{
+	background-image:url("img/wall-mockup.jpg");
+	background-image: -webkit-image-set(url("img/wall-mockup.webp") 1x,
+url("img/wall-mockup.webp") 2x);background-image: image-set(url("img/wall-mockup.jpg") 1x,
+url("img/wall-mockup.jpg") 2x,url("img/wall-mockup.webp") 1x,
+url("img/wall-mockup.webp") 2x);
+	background-size:cover;
 }
 
 /* = Colour
